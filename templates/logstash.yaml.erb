@@ -1,3 +1,5 @@
 ---
 :host: <%= scope.lookupvar('logstash_host') %>
 :port: <%= scope.lookupvar('logstash_port') %>
+:timeout: <%= scope.lookupvar('logstash_timeout') %>
+:resource_status: <%= scope.lookupvar('logstash_resource_status') %>
